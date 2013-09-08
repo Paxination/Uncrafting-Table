@@ -27,11 +27,11 @@ public class UncraftingRecipes {
 		UncraftRecipe glowstoneBlock = new UncraftRecipe(new ItemStack(Material.GLOWSTONE, 1), Material.GLOWSTONE_DUST, Material.GLOWSTONE_DUST, Material.AIR, Material.GLOWSTONE_DUST, Material.GLOWSTONE_DUST, Material.AIR, Material.AIR, Material.AIR, Material.AIR);
 		UncraftRecipe goldBlock = new UncraftRecipe(new ItemStack(Material.GOLD_BLOCK, 1), Material.GOLD_INGOT, Material.GOLD_INGOT, Material.GOLD_INGOT, Material.GOLD_INGOT, Material.GOLD_INGOT, Material.GOLD_INGOT, Material.GOLD_INGOT, Material.GOLD_INGOT, Material.GOLD_INGOT);
 		UncraftRecipe ironBlock = new UncraftRecipe(new ItemStack(Material.IRON_BLOCK, 1), Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT);
-		//lapis block
+		UncraftRecipe lapisBlock = new UncraftRecipe(new ItemStack(Material.LAPIS_LAZULI_BLOCK, 1), Material.LAPIS_LAZULI, Material.LAPIS_LAZULI, Material.LAPIS_LAZULI, Material.LAPIS_LAZULI, Material.LAPIS_LAZULI, Material.LAPIS_LAZULI, Material.LAPIS_LAZULI, Material.LAPIS_LAZULI, Material.LAPIS_LAZULI);
 		UncraftRecipe melonBlock = new UncraftRecipe(new ItemStack(Material.MELON_BLOCK, 1), Material.MELON, Material.MELON, Material.MELON, Material.MELON, Material.MELON, Material.MELON, Material.MELON, Material.MELON, Material.MELON);
 		UncraftRecipe sandstoneBlock = new UncraftRecipe(new ItemStack(Material.SANDSTONE, 1), Material.SAND, Material.SAND, Material.AIR, Material.SAND, Material.SAND, Material.AIR, Material.AIR, Material.AIR, Material.AIR);
 		UncraftRecipe snowBlock = new UncraftRecipe(new ItemStack(Material.SNOW_BLOCK, 1), Material.SNOW_BALL, Material.SNOW_BALL, Material.AIR, Material.SNOW_BALL, Material.SNOW_BALL, Material.AIR, Material.AIR, Material.AIR, Material.AIR);
-		//stone brick block
+		UncraftRecipe stoneBrickBlock = new UncraftRecipe(new ItemStack(Material.STONE_BRICK, 4), Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.STONE, Material.STONE, Material.STONE, Material.STONE);
 		UncraftRecipe tnt = new UncraftRecipe(new ItemStack(Material.TNT, 1), Material.SULPHUR, Material.SAND, Material.SULPHUR, Material.SAND, Material.SULPHUR, Material.SAND, Material.SULPHUR, Material.SAND, Material.SULPHUR);
 		UncraftRecipe woodPlank = new UncraftRecipe(new ItemStack(Material.WOOD, 4), Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.LOG, Material.AIR, Material.AIR, Material.AIR, Material.AIR);
 		UncraftRecipe bed = new UncraftRecipe(new ItemStack(Material.BED, 1), Material.AIR, Material.AIR, Material.AIR, Material.WOOL, Material.WOOL, Material.WOOL, Material.WOOD, Material.WOOD, Material.WOOD);
@@ -41,25 +41,25 @@ public class UncraftingRecipes {
 		UncraftRecipe netherBrickFence = new UncraftRecipe(new ItemStack(Material.NETHER_FENCE, 6), Material.AIR, Material.AIR, Material.AIR, Material.NETHER_BRICK, Material.NETHER_BRICK, Material.NETHER_BRICK, Material.NETHER_BRICK, Material.NETHER_BRICK, Material.NETHER_BRICK);
 		UncraftRecipe woodFence = new UncraftRecipe(new ItemStack(Material.FENCE, 2), Material.AIR, Material.AIR, Material.AIR, Material.STICK, Material.STICK, Material.STICK, Material.STICK, Material.STICK, Material.STICK);
 		UncraftRecipe fenceGate = new UncraftRecipe(new ItemStack(Material.FENCE_GATE, 1), Material.AIR, Material.AIR, Material.AIR, Material.STICK, Material.WOOD, Material.STICK, Material.STICK, Material.WOOD, Material.STICK);
-		//glass pane
-		//iron bars
+		UncraftRecipe glassPane = new UncraftRecipe(new ItemStack(Material.GLASS_PANE, 16), Material.AIR, Material.AIR, Material.AIR, Material.GLASS, Material.GLASS, Material.GLASS, Material.GLASS, Material.GLASS, Material.GLASS);
+		UncraftRecipe ironBars = new UncraftRecipe(new ItemStack(Material.IRON_BARS, 16), Material.AIR, Material.AIR, Material.AIR, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT, Material.IRON_INGOT);
 		UncraftRecipe jackOLantern = new UncraftRecipe(new ItemStack(Material.JACK_O_LANTERN, 1), Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.PUMPKIN, Material.AIR, Material.AIR, Material.TORCH, Material.AIR);
 		UncraftRecipe jukebox = new UncraftRecipe(new ItemStack(Material.JUKEBOX, 1), Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD, Material.DIAMOND, Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD);
 		UncraftRecipe ladder = new UncraftRecipe(new ItemStack(Material.LADDER, 3), Material.STICK, Material.AIR, Material.STICK, Material.STICK, Material.STICK, Material.STICK, Material.STICK, Material.AIR, Material.STICK);
 		UncraftRecipe noteBlock = new UncraftRecipe(new ItemStack(Material.NOTE_BLOCK, 1), Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD, Material.REDSTONE, Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD);
 		UncraftRecipe painting = new UncraftRecipe(new ItemStack(Material.PAINTING, 1), Material.STICK, Material.STICK, Material.STICK, Material.STICK, Material.WOOL, Material.STICK, Material.STICK, Material.STICK, Material.STICK);
 		UncraftRecipe sign = new UncraftRecipe(new ItemStack(Material.SIGN, 3), Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD, Material.AIR, Material.STICK, Material.AIR);
-		//brick slab
-		//cobblestone slab
-		//sandstone slab
-		//stonebrick slab
-		///stone slab
+		UncraftRecipe bricksSlab = new UncraftRecipe(new ItemStack(Material.BRICKS_SLAB, 6), Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.BRICKS, Material.BRICKS, Material.BRICKS);
+		UncraftRecipe cobblestoneSlab = new UncraftRecipe(new ItemStack(Material.COBBLESTONE_SLAB, 6), Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.COBBLESTONE, Material.COBBLESTONE, Material.COBBLESTONE);
+		UncraftRecipe sandstoneSlab = new UncraftRecipe(new ItemStack(Material.SANDSTONE_SLAB, 6), Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.SANDSTONE, Material.SANDSTONE, Material.SANDSTONE);
+		UncraftRecipe stoneBricksSlab = new UncraftRecipe(new ItemStack(Material.STONE_BRICKS_SLAB, 6) Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.STONE_BRICK);
+		UncraftRecipe stoneSlab = new UncraftRecipe(new ItemStack(Material.STONE_SLAB, 6) Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.AIR, Material.STONE, Material.STONE, Material.STONE);
 		//wood slab
-		//brick stairs
-		//netherbrick stairs
-		//stonebrick stairs
-		//cobblestone stairs
-		//wood stairs
+		UncraftRecipe brickStairs = new UncraftRecipe(new ItemStack(Material.BRICK_STAIRS, 4), Material.AIR, Material.AIR, Material.AIR, Material.BRICKS, Material.BRICKS, Material.BRICKS, Material.BRICKS, Material.BRICKS, Material.BRICKS); 
+		UncraftRecipe netherBrickStairs = new UncraftRecipe(new ItemStack(Material.NETHER_BRICK_STAIRS, 4), Material.AIR, Material.AIR, Material.AIR, Material.NETHER_BRICK, Material.NETHER_BRICK, Material.NETHER_BRICK,Material.NETHER_BRICK, Material.NETHER_BRICK, Material.NETHER_BRICK);
+		UncraftRecipe stoneBrickStairs = new UncraftRecipe(new ItemStack(Material.STONE_BRICK_STAIRS, 4), Material.AIR, Material.AIR, Material.AIR, Material.STONE_BRICK, Material.STONE_BRICK, Material.STONE_BRICK, Material.STONE_BRICK, Material.STONE_BRICK, Material.STONE_BRICK);
+		UncraftRecipe cobblestoneStairs = new UncraftRecipe(new ItemStack(Material.COBBLESTONE_STAIRS, 4), Material.AIR, Material.AIR, Material.AIR, Material.COBBLESTONE, Material.COBBLESTONE, Material.COBBLESTONE, Material.COBBLESTONE, Material.COBBLESTONE, Material.COBBLESTONE);
+ 		//wood stairs
 		UncraftRecipe trapdoor = new UncraftRecipe(new ItemStack(Material.TRAP_DOOR, 2), Material.AIR, Material.AIR, Material.AIR, Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD, Material.WOOD);
 		//bonemeal
 		//cyan dye
